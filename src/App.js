@@ -15,6 +15,10 @@ const App = () => {
   return (
     <>
     <div className="cutepie">
+    {!double && < img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWNhdHUxZzRzdDNkbWdibWF3eTVqdnczYXV4NjBsYzMxbnF5cXlpMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjI4sFlp73fvEYgw/giphy.gif" alt="cute gif" />
+        }
+        {double && < img src={giff} alt="cute gif" />
+        }
       <img src="https://media2.giphy.com/media/yc2pHdAoxVOrJ2m5Ha/200.webp?cid=ecf05e4753ezatati6uik18eqrznjmofteht13l1f30qazop&ep=v1_gifs_related&rid=200.webp&ct=g" />
       <div>
         <h1>  Do you like me ?</h1>
