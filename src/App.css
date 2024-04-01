@@ -2,23 +2,49 @@
   height : 100vh;
   width : 100vw;
   display : flex;
+  font-family: 'Comic Sans MS', cursive;
   flex-direction : column;
   align-items : center;
   justify-content : center;
   background-color : wheat;  
+  font-size : 21px;
+  color : rgb(72, 31, 31)
 }
 .cutepie button {
   width : 100px;
   border : none;
   outline : none;
   padding: 5px;
+  font-weight: bold;
   text-align : centre;
   border-radius : 10px;
   font-size : 20px;
   margin-top : 30px;
   margin-left : 25px;
-  color : brown;
+  color : rgb(123, 39, 39);
   cursor : pointer;
 
 
+}
+@keyframes falling {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Zeyada', cursive;
+  font-family: 'Comic Sans MS', cursive;
+  background-color : rgb(206, 206, 242);
+}
+
+.center-container {
+  text-align: center;
 }
